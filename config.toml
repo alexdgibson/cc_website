@@ -126,17 +126,17 @@ enableEmoji = true
     name = "About"
     title = "About Blogophonic"
     url = "/about/"
-    weight = 3
+    weight = 2
   [[menu.header]]
     name = "Blog"
     title = "Blog"
     url = "/blog/"
     weight = 1
   [[menu.header]]
-    name = "Resume"
-    title = "resume"
-    url = "/resume/"
-    weight = 2
+    name = "cv"
+    title = "cv"
+    url = "/cv/alexander_gibson_cv.pdf"
+    weight = 3
 
     
   # Configure footer  

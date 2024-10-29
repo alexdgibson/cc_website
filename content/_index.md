@@ -1,6 +1,6 @@
 ---
-action_label: Read More &rarr;
-action_link: /alexgibson.netlify.app/blog
+action_label: Read Now &rarr;
+action_link: /blog
 action_type: text
 description: Check out my blog 'Distributions'!
 image_left: true
@@ -8,7 +8,7 @@ images:
 - square_2024.jpg
 show_action_link: true
 show_social_links: true
-subtitle: 
+subtitle:
 text_align_left: false
 title: Alexander Gibson
 type: home
