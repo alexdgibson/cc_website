@@ -2,7 +2,7 @@
 cascade:
   headless: true
 description: |
-  A website for Alexander Gibson a PhD student in meta-research of medical statistics.
+  A website for Alexander Gibson a PhD student focused on meta-research in medical statistics.
 headless: false
 show_header: true
 sidebar_left: false

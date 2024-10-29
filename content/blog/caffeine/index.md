@@ -1,8 +1,8 @@
 ---
 author: "Alexander Gibson"
 categories:
-date: "2024-10-29"
-draft: false
+date: "2024-10-31"
+draft: true
 excerpt: I tracked my caffeine consumption over the course of three months while completing my first PhD assessment. Here's how much I had.
 layout: single
 subtitle: As a coffee and numbers lover I've always wondered how much I have. So I set to find out.

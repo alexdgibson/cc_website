@@ -3,13 +3,13 @@ action_label: Read Now &rarr;
 action_link: /blog
 action_type: text
 description: Check out my blog 'Distributions'!
-image_left: true
+image_left: false
 images:
 - square_2024.jpg
 show_action_link: true
 show_social_links: true
-subtitle:
-text_align_left: false
+subtitle: PhD Student 
+text_align_left: true
 title: Alexander Gibson
 type: home
 ---

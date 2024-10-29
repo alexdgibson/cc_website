@@ -7,5 +7,5 @@ headline: |
 ---
 
 <!-- this is a subheadline -->
-I'm a PhD student at the Queensland University of Technology and 
-the Australian Centre for Health Services Innovations (AusHSI). I have an interest in medical sciences, statistics and meta-research!
+I'm a PhD student at the Queensland University of Technology (QUT) and 
+the Australian Centre for Health Services Innovations (AusHSI).

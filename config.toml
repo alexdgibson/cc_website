@@ -31,8 +31,8 @@ enableEmoji = true
   orgName = "Alexander Gibson"
   orgLocal = ""
   description = "PhD Student."
-  favicon = "/img/favicon.ico" # icon at the top of chrome
-  logo = "/img/blogophonic-mark-dark.png" # icon on the top of page
+  favicon = "/img/curve.png" # icon at the top of chrome
+  logo = "/img/curve.png" # icon on the top of page
   mainSections = []
   navallcaps = true
   # show/hide social icons in site header & footer
@@ -41,7 +41,7 @@ enableEmoji = true
   socialInFooter = true
   # Default image for social sharing and search engines. 
   # Place image file in `static` folder and specify image name here.
-  sharing_image = "/img/papillons.jpg"
+  sharing_image = ""
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
   twitter = ""
   
@@ -61,8 +61,8 @@ enableEmoji = true
   # serif options: Fraunces / EB Garamond / Bitter
   # sans-serif options: Commissioner / Atkinson Hyperlegible / Metropolis
   # if you import your own fonts, name them here too
-  customtextFontFamily = "Commissioner"
-  customheadingFontFamily = "Fraunces"
+  customtextFontFamily = "Atkinson Hyperlegible"
+  customheadingFontFamily = "Metropolis"
   # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
   textFontFamily = "sans-serif"

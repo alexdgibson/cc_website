@@ -1,5 +1,5 @@
 ---
-author: Alexander Gibson
+author:
 cascade:
   author: Alexander Gibson
   show_author_byline: true

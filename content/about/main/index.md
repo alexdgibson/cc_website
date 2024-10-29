@@ -6,9 +6,11 @@ use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
-  This is my personal website! Through this site I've started a monthly blog series called 'DISTRIBUTIONS'. I'll keep updates on my any personal and potentially interesting projects, the trials and tribulations of my PhD and some randomness!
+  This is my personal website! I've just started a monthly blog series called 'Distributions'. I'll keep updates on some interesting projects (to me at least), the trials and tribulations of my PhD and some randomness!
   
-  My background and undergrad is in Biomedical Science (Anatomy, Physiology and Biochemistry). I was then ran about by exercise and completed a MPhil, predicting and modelling elite sport. During this time I also ran 13 ultra/marathons and finished three triathlons. Now I'm deep into statistics. My PhD focuses on meta-research in clinical prediction models, examining poor statistical practices in published models.  
+  My background and undergrad is in Biomedical Science (Anatomy, Physiology and Biochemistry). I was then ran about by exercise science and completed a MPhil, predicting and modelling elite sports. As an avid runner, in that period I ran 13 ultra/marathons and finished three triathlons. Now, continuing to follow my curiosity I'm deep into medical statistics. My PhD focuses on meta-research in clinical prediction models, examining poor statistical practices.
+  
+  My broad interests span, medical sciences, statistics and high-performance sport. With personal interests in rockets, chemistry, art, coding, reading and everything in between!
   
 show_outro: false
 outro: |
