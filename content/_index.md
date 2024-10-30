@@ -5,7 +5,7 @@ action_type: text
 description: Check out my blog 'Distributions'!
 image_left: false
 images:
-- square_2024.jpg
+- cartoon.png
 show_action_link: true
 show_social_links: true
 subtitle: PhD Student 
