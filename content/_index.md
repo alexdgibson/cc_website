@@ -2,13 +2,13 @@
 action_label: Read Now &rarr;
 action_link: /blog
 action_type: text
-description: Check out my blog 'Curiosity Chronicles'!
+description: While I continue to finish my site, check out my blog 'Curiosity Chronicles'!
 image_left: false
 images:
 - cartoon.png
 show_action_link: true
 show_social_links: true
-subtitle: PhD Student 
+subtitle: PhD Student
 text_align_left: true
 title: Alexander Gibson
 type: home

@@ -132,12 +132,12 @@ enableEmoji = true
     title = "Blog"
     url = "/blog/"
     weight = 1
-  [[menu.header]]
-    name = "cv"
-    title = "cv"
-    url = "/cv/alexander_gibson_cv.pdf"
-    weight = 3
-
+#  [[menu.header]]
+#    name = "cv"
+#    title = "cv"
+#    url = "/cv/alexander_gibson_cv.pdf"
+#    weight = 3
+# add back cv when updated
     
   # Configure footer  
   [[menu.footer]]
