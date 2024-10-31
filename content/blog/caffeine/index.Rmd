@@ -29,7 +29,7 @@ Well my first PhD assessment was completed on the 31st of October, exactly 3 mon
 
 In total I had 120 coffees and 4 energy drinks! Or a mean average of 1.33 drinks a day.
 
-If we assume the Nespresso pods have 75mg of caffeine, a medium coffee has 60mg, a large coffee has 80mg and the energy drink (monsters) has 160mg. As a total I had 95 nespresso pod coffees, 9 medium coffees, 10 large coffees, 1 medium iced coffee, 5 large iced coffees and 4 energy drinks. 
+We can assume a Nespresso pod has 75mg of caffeine, a medium coffee has 60mg, a large coffee has 80mg and energy drink (monster) has 160mg. Then with the individual totals I had 95 nespresso pod coffees, 9 medium coffees, 10 large coffees, 1 medium iced coffee, 5 large iced coffees and 4 energy drinks. 
 
 A little bit of math later and that works out to 9,565mg of caffeine! Nearly 10 grams of caffeine in the time to get my first assessment done.
 
