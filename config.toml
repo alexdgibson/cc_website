@@ -133,6 +133,12 @@ timezone = 'Australia/Queensland'
     title = "Blog"
     url = "/blog/"
     weight = 1
+      [[menu.header]]
+    name = "Contact"
+    title = "contact"
+    url = "/contact"
+    weight = 3
+# add back cv when updated
 #  [[menu.header]]
 #    name = "cv"
 #    title = "cv"
@@ -146,11 +152,11 @@ timezone = 'Australia/Queensland'
     title = "License"
     url = "/license/"
     weight = 1
-  #[[menu.footer]]
-  #  name = "Contact"
-  #  title = "Contact form"
-  #  url = "/contact/"
-  #  weight = 2
+  [[menu.footer]]
+    name = "Contact"
+    title = "Contact form"
+    url = "/contact/"
+    weight = 2
 
 # see https://gohugo.io/about/hugo-and-gdpr/    
 [privacy]
