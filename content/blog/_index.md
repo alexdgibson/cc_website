@@ -9,7 +9,7 @@ cascade:
     show_sidebar_adunit: true
     text_link_label: View recent posts
     text_link_url: /blog/
-description: "A monthly blog series of my projects, interests and randomness.\n"
+description:
 layout: list
 show_author_byline: true
 show_button_links: false

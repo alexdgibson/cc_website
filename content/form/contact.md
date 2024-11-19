@@ -1,6 +1,8 @@
 ---
 date: "2019-02-25T13:38:41-06:00"
-description: Whether you are reaching out for further information, providing feedback or would just like to talk, I'd love to hear from.
+description: "Whether you are reaching out for further information, providing feedback or would just like to talk, I'd love to hear from. <br><br>
+
+Just fill out the form and I'll get back to you within 48 hours."
 draft: false
 formspree_form_id: mvgokrvw
 layout: split-right
