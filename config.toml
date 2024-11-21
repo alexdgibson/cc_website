@@ -115,6 +115,10 @@ timezone = 'Australia/Queensland'
       icon      = "linkedin" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://www.linkedin.com/in/alexander-g-758b06159/"
+  [[params.social]]
+      icon      = "bluesky" # icon name without the 'fa-'
+      icon_pack = "fab"
+      url       = "https://bsky.app/profile/alexdgibson.bsky.social"
 
 [taxonomies]
   category = "categories"
