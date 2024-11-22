@@ -144,11 +144,10 @@ timezone = 'Australia/Queensland'
     weight = 3
 # add back cv when updated
 #  [[menu.header]]
-#    name = "cv"
+#    name = "CV"
 #    title = "cv"
-#    url = "/cv/alexander_gibson_cv.pdf"
-#    weight = 3
-# add back cv when updated
+#    url = "/cv"
+#    weight = 4
     
   # Configure footer  
   [[menu.footer]]
