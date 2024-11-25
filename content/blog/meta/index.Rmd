@@ -38,7 +38,7 @@ df %>%
   theme_void() +
   labs(y = "",
        x = "") +
-  theme(panel.border = element_rect(linewidth = 2, fill = NA))
+  theme(panel.border = element_rect(linewidth = 4, fill = NA))
 
 # save the figure to figures folder
 ggsave(filename = "featured.jpg", width = 8, height = 6, dpi = 300)
