@@ -5,8 +5,8 @@ date: "2024-10-31"
 draft: false
 excerpt: I tracked my caffeine consumption over the course of three months while completing my first PhD assessment. Here's how much I had.
 layout: single
-subtitle: As a coffee and numbers lover I've always wondered how much I have. So, I set to find out.
-title: I took 9565mg of caffeine
+subtitle: I've always wondered how much I have. So, I set to find out.
+title: I Took 9565mg of Caffeine
 auto_ids: false
 ---
 At the end of my MPhil, I had completed a great deal of work. But I was left wondering some stats… How many hours did I put into this? How many words did I write? How many words did I read? Or how much caffeine did I consume?
@@ -37,3 +37,10 @@ A little bit of math later and that works out to 9,565mg of caffeine! Nearly 10 
 But why have I tracked this? Well, because I can! There aren’t many reasons other than personal interest. But this is only the start, I still have 2 years and 9 months of caffeine data to collect. I’m particularly interested to see if my consumption changes around assessments, intense writing periods or even if it changes with the seasons. But that’s for another day.
 
 Welcome to my Curiosity Chronicles!
+
+
+
+
+
+
+
