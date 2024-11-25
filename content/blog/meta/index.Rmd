@@ -9,7 +9,7 @@ subtitle: How I see the future of meta-research
 title: Optimism in Meta-Research
 auto_ids: false
 ---
-I got to experience my first insight of ‘meta-research’ at the 2023 [AIMOS conference](https://aimos.community/). Before this, I had almost no knowledge about meta-research. It sparked an interest in me for integrity and good research practices. Often meta-research can appear pessimistic or cynical of broader research, showcasing the flaws and faults, making it nice to see a dedicated session for ‘some good news’ at AIMOS 2024. Four talks presented by [David Mellor](https://www.cos.io/team/david-mellor), [Tammy Hoffman](https://bond.edu.au/profile/tammy-hoffmann), [Ivan Oransky](https://retractionwatch.com/meet-the-retraction-watch-staff/about/) and [Anita Brandrowski](https://profiles.ucsd.edu/anita.bandrowski) gave light to the progress and positive affects meta-research and open science is having on wider research, policy and change. I found it very uplifting. The steady growth of articles relating to 'meta-research' is even more encouraging (Figure 1). Even organisations like the [Center for Open Science](https://www.cos.io/), the [Research on Research Institute](https://researchonresearch.org/), [AIMOS](https://aimos.community/) or [Metascience](https://metascience.info/) previously did not exist, yet now they do. They are direct evidence of the progress being made. 
+I got to experience my first insight of ‘meta-research’ at the 2023 [AIMOS conference](https://aimos.community/). Before this, I had almost no knowledge about meta-research. It sparked an interest in me for integrity and good research practices. Often meta-research can appear pessimistic or cynical of broader research, showcasing the flaws and faults, which made it refreshing to see a dedicated session for ‘some good news’ at AIMOS 2024. Four talks presented by [David Mellor](https://www.cos.io/team/david-mellor), [Tammy Hoffman](https://bond.edu.au/profile/tammy-hoffmann), [Ivan Oransky](https://retractionwatch.com/meet-the-retraction-watch-staff/about/) and [Anita Brandrowski](https://profiles.ucsd.edu/anita.bandrowski) gave light to the progress and positive affects meta-research and open science is having on the wider research. I found it very uplifting. The steady growth of articles relating to 'meta-research' is even more encouraging (Figure 1). Even organisations like the [Center for Open Science](https://www.cos.io/), [Research on Research Institute](https://researchonresearch.org/), [AIMOS](https://aimos.community/) or [Metascience](https://metascience.info/) previously did not exist, yet now they do. They are only a few examples of direct evidence for the progress being made. 
 
 ```{r include=FALSE}
 # load libraries
@@ -35,12 +35,10 @@ df %>%
   select(year, meta) %>% 
   ggplot(aes(x = year)) +
   geom_line(aes(y = meta),linewidth = 2, show.legend = FALSE) +
-  theme_classic() +
+  theme_void() +
   labs(y = "",
        x = "") +
-  theme(axis.ticks = element_blank(),
-        axis.text = element_blank(),
-        panel.border = element_rect(linewidth = 2, fill = NA))
+  theme(panel.border = element_rect(linewidth = 2, fill = NA))
 
 # save the figure to figures folder
 ggsave(filename = "featured.jpg", width = 8, height = 6, dpi = 300)
@@ -74,6 +72,6 @@ But before a student can decide if they're interested, they must first know abou
 
 **How do we involve new students?**
 
-Most obvious is to increase the number of honours, MPhil and PhD projects that are focused on meta-research (easier said than done), providing the opportunity for students to pursue their interests. However, this would only be possible for those already established researchers who can provide the resources to students. Lectures, workshops or conferences would be great in engaging a larger number of students. Increasing the availability or promotion of these events would be beneficial. Starting a new form of content, whether that be a blog, podcast or social media post. A month ago this series didn't exist, yet here you are reading it 
+Most obvious is to increase the number of honours, MPhil and PhD projects that are focused on meta-research (easier said than done), providing the opportunity for students to pursue their interests. However, this would only be possible for already established researchers who can provide these resources to students. This further assumes the students are already interested in these topics. If not, lectures, workshops or conferences would be effective tools in engaging a larger number of students to spark that interest --- how are you engaging with students? Increasing the availability and quantity of these events would again, be beneficial. Starting a new form of content, whether that be a blog, podcast or social media post will make meta-research more accessible to a wider audience. A month ago the 'Curiosity chronicles' didn't exist, yet here you are reading it. 
 
-Looking to the future, I remain excited about the potential of meta-research will have on shaping policy and practice. By involving students early and providing the resources to explore this area of research, it will help to expand the community. Whether it is academically specific or informal content, these touch points with meta-research are essential. The dawn of meta-research is just beginning to break and the potential for impact is open for a future of informed, evidenced-based progress.
+Looking to the future, I remain excited about the potential meta-research will have on shaping policy and practice. By involving students early and providing the resources to explore this area of research, it will help to build the community. Whether it is academically specific or through informal content, these touch points with meta-research for students are essential. The field of meta-research is just beginning and the potential for impact is open for a future of informed, evidenced-based progress.
