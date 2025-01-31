@@ -2,7 +2,7 @@
 author: "Alexander Gibson"
 categories:
 date: "2025-01-31"
-draft: true
+draft: false
 excerpt: Without social media, I am more content, focused, productive and I don't plan on getting it back.
 layout: single
 subtitle: Why deleting social media was a great decision for my life.
