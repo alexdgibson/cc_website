@@ -5,8 +5,8 @@ date: "2025-01-31"
 draft: false
 excerpt: Without social media, I am more content, focused, productive and I don't plan on getting it back.
 layout: single
-subtitle: Why deleting social media was a great decision for my life.
-title: A better life without social media
+subtitle: Why deleting social media was a great decision for me.
+title: A Better Life Without Social Media
 auto_ids: false
 ---
 For most of my adult life, friends and I have talked about the addictive and negative aspects of social media. A constant highlight reel with individualised targeted ads, an algorithm designed to maximise engagement, not to mention infinite scrolling. Previously, having tried removing social media sporadically with little luck, I’ve now permanently deleted Instagram, Snapchat, Reddit, TikTok, X and deactivated my Facebook account. 
