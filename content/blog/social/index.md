@@ -5,7 +5,7 @@ date: "2025-01-31"
 draft: false
 excerpt: Without social media, I am more content, focused, productive and I don't plan on getting it back.
 layout: single
-subtitle: Why deleting social media was a great decision for me.
+subtitle: Why deleting social media was a fantastic decision.
 title: A Better Life Without Social Media
 auto_ids: false
 ---
