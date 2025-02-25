@@ -16,17 +16,17 @@ The Greek philosopher Zeno was given the advice; “to live the best life, you s
 
 ### 1.	War Doctor: Surgery On The Front Line – David Nott
 
-While my interest in medicine came from a documentary I saw in 2018, this is the book that I keep coming back to. Raw, intense, unfiltered stories recounting the brutality of war and one man’s attempt to bring some peace back into the world. You hear both the absolute heartlessness of humans at war before the most selfless, admirable and brave actions of Dr David Nott and other volunteer medical personnel.  
+While my interest in medicine came from a documentary I saw in 2018, this is the book that I keep coming back to. Raw, intense, unfiltered stories recounting the brutality of war and one man’s attempt to bring some peace back into the world. You hear both the absolute heartlessness of humans at war before the most selfless, admirable and brave actions of Dr David Nott and other volunteer medical personnel.
 <br>
 
 ### 2.	Meditations – Marcus Aurelius
 
-The most powerful man in the world circa 170 AD, Marcus Aurelius was a Stoic philosopher and the last of the five good Roman Emperors. The Meditations are a collection of writings from Marcus to himself to facilitate a discussion of self-improvement and self-guidance in his position of power. Each time I have read the Meditations it has always dawned on me just how little the real challenges of life have changed over thousands of years. There is always something to learn from the Meditations that is applicable everyday. 
+The most powerful man in the world circa 170 AD, Marcus Aurelius was a Stoic philosopher and the last of the five good Roman Emperors. The Meditations are a collection of writings from Marcus to himself to facilitate a discussion of self-improvement and self-guidance in his position of power. Each time I have read the Meditations it has always dawned on me just how little the real challenges of life have changed over thousands of years. There is always something to learn from the Meditations that is applicable to everyday life. 
 <br><br>
 
 ### 3.	Man's Search for Meaning – Victor Frankl
 
-A psychologist Victor Frankl is taken as a prisoner of war to nazi concentration camps during World War II. Man's search for meaning is an incredible retelling of his experiences and the importance of hope and purpose. As a psychologist he saw firsthand how people responded to the evil and those who found purpose fared better.
+The psychologist Victor Frankl, is taken as a prisoner of war and sent to Nazi concentration camps during World War II. Man's search for meaning is an incredible retelling of his experiences and the importance of hope and purpose. As a psychologist he saw firsthand how people responded to the evil and those who found purpose fared better.
 
 *“One should not search for an abstract meaning of life. Everyone has his own specific vocation or mission in life to carry out a concrete assignment which demands fulfillment. Therein he cannot be replaced, nor can his life be repeated. Thus, everyone’s task is as unique as is his specific opportunity to implement it. As each situation in life represents a challenge to man and presents a problem for him to solve, the question of the meaning of life may actually be reversed. Ultimately, man should not ask what the meaning of life is, but rather he must recognise that it is he who is asked. In a word, each man is questioned by life; and he can only answer to life by answering for his own life; to life he can only respond by being responsible.”*
 <br><br>
