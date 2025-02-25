@@ -1,8 +1,8 @@
 ---
 author: "Alexander Gibson"
 categories:
-date: "2025-02-28"
-draft: true
+date: "2025-02-26"
+draft: false
 excerpt: A non-exhaustive list of the books that have changed me and my direction in life.
 layout: single
 subtitle:
