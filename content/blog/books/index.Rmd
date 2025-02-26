@@ -27,8 +27,6 @@ The most powerful man in the world circa 170 AD, Marcus Aurelius was a Stoic phi
 ### 3.	Man's Search for Meaning – Victor Frankl
 
 The psychologist Victor Frankl, is taken as a prisoner of war and sent to Nazi concentration camps during World War II. Man's search for meaning is an incredible retelling of his experiences and the importance of hope and purpose. As a psychologist he saw firsthand how people responded to the evil and those who found purpose fared better.
-
-*“One should not search for an abstract meaning of life. Everyone has his own specific vocation or mission in life to carry out a concrete assignment which demands fulfillment. Therein he cannot be replaced, nor can his life be repeated. Thus, everyone’s task is as unique as is his specific opportunity to implement it. As each situation in life represents a challenge to man and presents a problem for him to solve, the question of the meaning of life may actually be reversed. Ultimately, man should not ask what the meaning of life is, but rather he must recognise that it is he who is asked. In a word, each man is questioned by life; and he can only answer to life by answering for his own life; to life he can only respond by being responsible.”*
 <br><br>
 
 ### 4.	Endurance: Shackleton’s Incredible Voyage – Alfred Lansing
