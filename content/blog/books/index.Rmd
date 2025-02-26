@@ -6,7 +6,7 @@ draft: false
 excerpt: A non-exhaustive list of the books that have changed me and my direction in life.
 layout: single
 subtitle:
-title: Eight Books That Changed Me
+title: Eight Books That Have Changed Me
 auto_ids: false
 ---
 
