@@ -3,17 +3,16 @@ author: "Alexander Gibson"
 categories:
 date: "2025-05-01"
 draft: false
-excerpt: My thoughts on 
+excerpt: We don’t need more science, we need better science. 
 layout: single
-subtitle:
+subtitle: My PhD is important for the wrong reasons.
 title: Should My PhD Exist?
 auto_ids: false
 ---
-My PhD is important for the wrong reasons.
 
-Titled “On examining poor statistical practices in published clinical prediction models” I have been searching for problems and issues in prediction research for the last 273 days. 
+Titled “On examining poor statistical practices in published clinical prediction models” for the last 273 days I have been searching for problems and issues in prediction research. 
 
-What I rarely see are, well developed, rigorous studies that are pre-registered with appropriate methods, following expert guidelines and published with open access code/data for reproducibility and replicability. Simple, good research practices.
+What I rarely see are, well developed, rigorous prediction modelling studies that are pre-registered with appropriate methods, following expert guidelines and published with open access code/data for reproducibility and replicability. Simple, good research practices.
 
 That is not to say there aren't plenty of fantastic, impactful studies that change practice and policy. But after nearly a year, I have found there is more than enough sub-optimal research, that I am spoilt for choice, having had to sideline countless study ideas. And it makes me wonder… <br><br>
 
@@ -27,16 +26,14 @@ Yes.<br><br>
 
 <b>So, how do issues creep into published health and medical research?</b> 
 
-I see there are two possibilities. Studies are unknowingly or knowingly published with problems. Bad actors who knowingly publish false, misleading or poorly executed studies are likely to continue, while a form of profit exists – being financial, career gain or prestige for example.
+I see there are two possibilities. Studies are unknowingly or knowingly published with problems. Bad actors who knowingly publish false, misleading or poorly executed studies are likely to continue, while a form of 'profit' exists – being financial, career gain or prestige for example.
 
-Studies which are published with problems undenounced to the authors could arise from a lack of domain knowledge – an inappropriate statistical method for the data or research question – or something as trivial as human error. The bias for statistical significance is a common hacking practice and an example of articles published with a potentially unknown problem – being the authors may be unaware of the implications of statistical hacking.
+Studies which are published with problems undenounced to the authors could arise from a lack of domain knowledge – an inappropriate statistical method for the data or research question – or something as trivial as human error. The bias for statistical significance is a common hacking practice and an example where articles have likely been published with an unknown problem – that the authors may be unaware to the implications of statistical hacking.
 
-One of the best ways to produce high quality research with integrity is by developing studies with pre-registrations, mitigating bias, hacking practices and opening transparent research. Clinical trials are required to be registered and is considered a "scientific, ethical and moral responsibility" by the [World Health Organisation](https://www.who.int/publications/i/item/international-standards-for-clinical-trial-registers). While it appears that quantity has become the aim of the game, quality research should always be the focus.<br><br>
+One of the best ways to produce high quality research with integrity is by pre-registering well developed studies, mitigating bias, hacking practices and opening transparent research. Clinical trials are required to be registered and is considered a "scientific, ethical and moral responsibility" by the [World Health Organisation](https://www.who.int/publications/i/item/international-standards-for-clinical-trial-registers). While it appears that quantity has become the aim of the game, quality research should always be the focus.<br><br>
 
 <b>So, should my PhD topic exist?</b>
 
-Ideally no, but we do not live in an ideal world and problems exist that need to be addressed. My hope is one day science will be so rigorous, that all focus can be on progressing science forward, not identifying common problems. But until issues are worked out, there is a need to identify and tackle them. 
-
-We don’t need more science, we need better science.
+Ideally no, but we do not live in an ideal world and problems exist that need to be addressed. My hope is one day science will be so rigorous, that all focus can be on progressing science forward, not identifying common problems. But until issues are worked out, there is a need to identify and tackle them.
 
 
