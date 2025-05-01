@@ -5,11 +5,12 @@ date: "2025-05-01"
 draft: false
 excerpt: We don’t need more science, we need better science. 
 layout: single
-subtitle: My PhD is important for the wrong reasons.
+subtitle:
 title: Should My PhD Exist?
 auto_ids: false
 ---
-
+ My PhD is important for the wrong reasons.
+ 
 Titled “On examining poor statistical practices in published clinical prediction models” for the last 273 days I have been searching for problems and issues in prediction research. 
 
 What I rarely see are, well developed, rigorous prediction modelling studies that are pre-registered with appropriate methods, following expert guidelines and published with open access code/data for reproducibility and replicability. Simple, good research practices.
