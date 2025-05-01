@@ -26,9 +26,9 @@ Yes.<br><br>
 
 <b>So, how do issues creep into published health and medical research?</b> 
 
-I see there are two possibilities. Studies are unknowingly or knowingly published with problems. Bad actors who knowingly publish false, misleading or poorly executed studies are likely to continue, while a form of 'profit' exists – being financial, career gain or prestige for example.
+I see there are two possibilities. Studies are unknowingly or knowingly published with problems. Bad actors who knowingly publish false, misleading or poorly executed studies are likely to continue, while a form of 'profit' exists – being financial, career gain or prestige for example – and this is unlikely to change.
 
-Studies which are published with problems undenounced to the authors could arise from a lack of domain knowledge – an inappropriate statistical method for the data or research question – or something as trivial as human error. The bias for statistical significance is a common hacking practice and an example where articles have likely been published with an unknown problem – that the authors may be unaware to the implications of statistical hacking.
+Studies which are published with problems undenounced to the authors however, could arise from a lack of domain knowledge – an inappropriate statistical method for the data or research question – or something as trivial as human error. The bias for statistical significance is a common hacking practice and an example where articles have likely been published with an unknown problem – that the authors may be unaware to the implications of statistical hacking.
 
 One of the best ways to produce high quality research with integrity is by pre-registering well developed studies, mitigating bias, hacking practices and opening transparent research. Clinical trials are required to be registered and is considered a "scientific, ethical and moral responsibility" by the [World Health Organisation](https://www.who.int/publications/i/item/international-standards-for-clinical-trial-registers). While it appears that quantity has become the aim of the game, quality research should always be the focus.<br><br>
 
