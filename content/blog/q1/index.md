@@ -36,7 +36,7 @@ The top Q1 journals published more than <strong>half</strong> of all publication
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-2-1.png" width="672" />
 
-This is Goodhart’s Law in action. “When a measure becomes a target, it ceases to be a good measure”. As Q1 journal rankings have become a target for researchers, it has diluted the ability to assess the quality of research in these journals. Ranked by whatever metric, the top 25% cannot fit into 53%. 
+This is Goodhart’s Law in action. “When a measure becomes a target, it ceases to be a good measure”. As Q1 journal rankings have become a target for researchers, it has diluted the ability to assess the quality of research in these journals. Ranked by whatever metric, 53% cannot fit into the top 25%. 
 
 This holds true for subgroups.
 
