@@ -23,7 +23,7 @@ As each quartile category contain an equal number of journals, it is correct to 
 
 This seemingly is far from the truth.
 
-I took the publicly available journal rankings for 2024 from Simamgo to examine the distribution of publications across these different ranked quartiles. There were around 30,000 journals in 2024 with more than 9 million publications in the preceding three years. A normal expectation would be that each quartile of journals would publish 25% of the research or that 2.3 million articles would come from roughly 7,500 journals.
+I took the publicly available journal rankings for 2024 from Simamgo to examine the distribution of publications across these different ranked quartiles. There were around 30,000 journals in 2024 with more than 9 million publications in the preceding three years. A normal expectation would be that each quartile of journals would publish 25% of the research or that 2.2 million articles would come from roughly 7,500 journals.
 
 The top Q1 journals published more than <strong>half</strong> of all research.
 
@@ -55,12 +55,13 @@ docs <- df %>%
 docs %>% 
   filter(`SJR Best Quartile` != "-") %>% 
   mutate(sum = sum(n)) %>% 
-  mutate(perc = (n/sum)*100) %>% 
   ggplot(aes(x = `SJR Best Quartile`, y = n))+
   geom_col()+
   theme_classic()+
   labs(x = "Journal Quartile",
-       y = "Number of Publications")
+       y = "Number of Publications (Millions)")+
+  theme(text = element_text(size = 15))+
+  scale_y_continuous(labels = c(0, 1, 2, 3, 4, 5))
 ```
 
 This is Goodhart’s Law in action. “When a measure becomes a target, it ceases to be a good measure”. As Q1 journal rankings have become a target for researchers, it has diluted the quality of research in these journals. Ranked by whatever metric, the top 25% cannot fit into 53%. 
@@ -77,7 +78,7 @@ The top Q1 journals over represent publications:
 
 ```{r include=FALSE}
 
-docs <- df %>% 
+docs_med <- df %>% 
   filter(Areas == "Medicine") %>% 
   group_by(`SJR Best Quartile`) %>% 
   summarise(n = sum(`Citable Docs. (3years)`))
@@ -87,15 +88,16 @@ docs <- df %>%
 
 ```{r echo=FALSE}
 
-docs %>% 
+docs_med %>% 
   filter(`SJR Best Quartile` != "-") %>% 
-  mutate(sum = sum(n)) %>% 
-  mutate(perc = (n/sum)*100) %>% 
+  mutate(sum = sum(n))  %>% 
   ggplot(aes(x = `SJR Best Quartile`, y = n))+
   geom_col()+
   theme_classic()+
   labs(x = "Journal Quartile",
-       y = "Number of Publications")
+       y = "Number of Publications (Millions)")+
+  theme(text = element_text(size = 15))+
+  scale_y_continuous(labels = c(0, 1, 2, 3))
 ```
 
 Quality cannot be assessed by a single metric. In the last three years if you were to select a publication at random, you’re most likely to pick an article published in a Q1 journal. Similarly, if you were to select a random publication from a Q1 journal in the last three years, it is more likely to not be Q1 research than is Q1 research.

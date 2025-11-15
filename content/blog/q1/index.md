@@ -23,7 +23,7 @@ As each quartile category contain an equal number of journals, it is correct to 
 
 This seemingly is far from the truth.
 
-I took the publicly available journal rankings for 2024 from Simamgo to examine the distribution of publications across these different ranked quartiles. There were around 30,000 journals in 2024 with more than 9 million publications in the preceding three years. A normal expectation would be that each quartile of journals would publish 25% of the research or that 2.3 million articles would come from roughly 7,500 journals.
+I took the publicly available journal rankings for 2024 from Simamgo to examine the distribution of publications across these different ranked quartiles. There were around 30,000 journals in 2024 with more than 9 million publications in the preceding three years. A normal expectation would be that each quartile of journals would publish 25% of the research or that 2.2 million articles would come from roughly 7,500 journals.
 
 The top Q1 journals published more than <strong>half</strong> of all research.
 
