@@ -10,22 +10,22 @@ title: Publishing in a Q1 Journal is not Q1 Research
 auto_ids: false
 ---
 
-Having only been in academic research for a few years and as a student it was strange to find such applause for publishing in “high quality” journals. Metrics are easy and quantifiable ways to act as a proxy measures for quality or impact but going beyond the first layer of journals it’s not the same. Individual research outcomes should be priority when assessing quality.
+Having only been in academic research for a few years and as a student it has been strange to find such applause for publishing in “high quality” Q1 journals. Metrics are easy and quantifiable ways to act as a proxy measures for quality or impact but going beyond the first layer it does not hold up. Individual research outcomes should be priority when assessing quality.
 
-Quartile rankings place journals into different equally spread categories:
+Quartile rankings place journals into different equally distributed categories:
 
-* Q1 = Top 0-25%
-* Q2 = 25-50%
-* Q3 = 50-75%
-* Q4 = Bottom 75-100%
+* Q1 = Top 0-25% of journals
+* Q2 = 25-50% of journals
+* Q3 = 50-75% of journals
+* Q4 = Bottom 75-100% of journals
 
-As each quartile category contain an equal number of journals, it is correct to assume that publishing in a quartile one journal would indicate that research is among the top 25%. 
+As each quartile category contains an equal number of journals, it is correct to assume that publishing in a Q1 journal would indicate that research is among the top 25%.
 
 This seemingly is far from the truth.
 
 I took the publicly available journal rankings for 2024 from Simamgo to examine the distribution of publications across these different ranked quartiles. There were around 30,000 journals in 2024 with more than 9 million publications in the preceding three years. A normal expectation would be that each quartile of journals would publish 25% of the research or that 2.2 million articles would come from roughly 7,500 journals.
 
-The top Q1 journals published more than <strong>half</strong> of all research.
+The top Q1 journals published more than <strong>half</strong> of all publications.
 
 * Q1 ranked journals had 53% of publications
 * Q2 ranked journals had 25% of publications
@@ -52,6 +52,6 @@ The top Q1 journals over represents publications:
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-4-1.png" width="672" />
 
-Quality cannot be assessed by a single metric. In the last three years if you were to select a publication at random, you’re most likely to pick an article published in a Q1 journal. Similarly, if you were to select a random publication from a Q1 journal in the last three years, it is more likely to not be Q1 research than is Q1 research.
+Quality cannot be assessed by a single metric. In the last three years if you were to select a publication at random, you’re most likely to pick an article published in a Q1 journal. Similarly, if you were to select a random publication from a Q1 journal in the last three years, it is more likely to not be Q1 research than it is.
 
 Journal quality is <strong>not</strong> a measure of research quality. 
