@@ -56,7 +56,7 @@ docs %>%
   filter(`SJR Best Quartile` != "-") %>% 
   mutate(sum = sum(n)) %>% 
   ggplot(aes(x = `SJR Best Quartile`, y = n))+
-  geom_col()+
+  geom_col(fill = "grey10")+
   theme_classic()+
   labs(x = "Journal Quartile",
        y = "Number of Publications (Millions)")+
@@ -92,7 +92,7 @@ docs_med %>%
   filter(`SJR Best Quartile` != "-") %>% 
   mutate(sum = sum(n))  %>% 
   ggplot(aes(x = `SJR Best Quartile`, y = n))+
-  geom_col()+
+  geom_col(fill = "black")+
   theme_classic()+
   labs(x = "Journal Quartile",
        y = "Number of Publications (Millions)")+
