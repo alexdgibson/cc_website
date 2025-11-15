@@ -41,7 +41,7 @@ This is Goodhart’s Law in action. “When a measure becomes a target, it cease
 This holds true for subgroups.
 
 Filtering journals to those with in area of medicine we find that once again, more than to be expected.
-The top Q1 journals over represent publications:
+The top Q1 journals over represents publications:
 
 * Q1 ranked journals had 42% of publications
 * Q2 ranked journals had 23% of publications
