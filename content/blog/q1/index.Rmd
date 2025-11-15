@@ -1,0 +1,103 @@
+---
+author: "Alexander Gibson"
+categories:
+date: "2025-11-15"
+draft: False
+excerpt: Journal quality is not a measure of research quality.
+layout: single
+subtitle:
+title: Publishing in a Q1 Journal is not Q1 Research
+auto_ids: false
+---
+
+Having only been in academic research for a few years and as a student it was strange to find such applause for publishing in “high quality” journals. Metrics are easy and quantifiable ways to act as a proxy measures for quality or impact but going beyond the first layer of journals it’s not the same. Individual research outcomes should be priority when assessing quality.
+
+Quartile rankings place journals into different equally spread categories:
+
+* Q1 = Top 0-25%
+* Q2 = 25-50%
+* Q3 = 50-75%
+* Q4 = Bottom 75-100%
+
+As each quartile category contain an equal number of journals, it is correct to assume that publishing in a quartile one journal would indicate that research is among the top 25%. 
+
+This seemingly is far from the truth.
+
+I took the publicly available journal rankings for 2024 from Simamgo to examine the distribution of publications across these different ranked quartiles. There were around 30,000 journals in 2024 with more than 9 million publications in the preceding three years. A normal expectation would be that each quartile of journals would publish 25% of the research or that 2.3 million articles would come from roughly 7,500 journals.
+
+The top Q1 journals published more than <strong>half</strong> of all research.
+
+* Q1 ranked journals had 53% of publications
+* Q2 ranked journals had 25% of publications
+* Q3 ranked journals had 14% of publications
+* Q4 ranked journals had 9% of publications
+
+```{r include=FALSE}
+library(tidyverse)
+scimagojr_2024 <- read_delim("scimagojr_2024.csv", 
+                             delim = ";", escape_double = FALSE, trim_ws = TRUE)
+
+
+df <- scimagojr_2024 %>% 
+  select(Rank, Title, `SJR Best Quartile`, `Citable Docs. (3years)`, Type, Areas) %>% 
+  filter(Type == "journal")
+
+
+docs <- df %>% 
+  group_by(`SJR Best Quartile`) %>% 
+  summarise(n = sum(`Citable Docs. (3years)`))
+
+
+```
+
+```{r echo=FALSE}
+
+docs %>% 
+  filter(`SJR Best Quartile` != "-") %>% 
+  mutate(sum = sum(n)) %>% 
+  mutate(perc = (n/sum)*100) %>% 
+  ggplot(aes(x = `SJR Best Quartile`, y = n))+
+  geom_col()+
+  theme_classic()+
+  labs(x = "Journal Quartile",
+       y = "Number of Publications")
+```
+
+This is Goodhart’s Law in action. “When a measure becomes a target, it ceases to be a good measure”. As Q1 journal rankings have become a target for researchers, it has diluted the quality of research in these journals. Ranked by whatever metric, the top 25% cannot fit into 53%. 
+
+This holds true for subgroups.
+
+Filtering journals to those with in area of medicine we find that once again, more than to be expected.
+The top Q1 journals over represent publications:
+
+* Q1 ranked journals had 42% of publications
+* Q2 ranked journals had 23% of publications
+* Q3 ranked journals had 17% of publications
+* Q4 ranked journals had 18% of publications.
+
+```{r include=FALSE}
+
+docs <- df %>% 
+  filter(Areas == "Medicine") %>% 
+  group_by(`SJR Best Quartile`) %>% 
+  summarise(n = sum(`Citable Docs. (3years)`))
+
+
+```
+
+```{r echo=FALSE}
+
+docs %>% 
+  filter(`SJR Best Quartile` != "-") %>% 
+  mutate(sum = sum(n)) %>% 
+  mutate(perc = (n/sum)*100) %>% 
+  ggplot(aes(x = `SJR Best Quartile`, y = n))+
+  geom_col()+
+  theme_classic()+
+  labs(x = "Journal Quartile",
+       y = "Number of Publications")
+```
+
+Quality cannot be assessed by a single metric. In the last three years if you were to select a publication at random, you’re most likely to pick an article published in a Q1 journal. Similarly, if you were to select a random publication from a Q1 journal in the last three years, it is more likely to not be Q1 research than is Q1 research.
+
+Journal quality is <strong>not</strong> a measure of research quality. 
