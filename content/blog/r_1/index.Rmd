@@ -21,7 +21,7 @@ By no means is this an exhaustive list of information and there are many other w
 
 I also want to stress that this post does **NOT** include methodological or statistical specific recommendations. I take the assumption that your ability to appropriately discern and apply the correct methods for your research questions have been addressed. This post outlines tips and resources to fast-track learning the statistical programming language R. 
 
-For those readers who are well versed in R, if you have any of your own resources, please share them with me here [(contact me)](https://alexdgibson.com/contact/), or in the comments of some available posts (linkedin, bluesky)!
+For those readers who are well versed in R, if you have any of your own resources, please share them with me here [(contact me)](https://alexdgibson.com/contact/), or in the comments of some available posts ([linkedin](https://www.linkedin.com/posts/alexander-gibson-758b06159_new-blog-learning-r-for-good-research-practices-activity-7401846248410177536-4NAZ?utm_source=share&utm_medium=member_ios&rcm=ACoAACYSwLQBNioGB9d9rnoFIvWv0LbmzKNYf0s), [bluesky](https://bsky.app/profile/alexdgibson.bsky.social))!
 
 
 ### So, What is R and RStudio?
