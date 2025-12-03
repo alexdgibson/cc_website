@@ -1,0 +1,140 @@
+---
+author: "Alexander Gibson"
+categories:
+date: "2025-12-03"
+draft: false
+excerpt: In this multi-part blog series I outline some steps to help start learning R. Part 1 is a background on R, packages and resources and tips on how to get started learning. 
+layout: single
+subtitle: 
+title: "Learning R for Good Research Practices: Part 1"
+auto_ids: false
+---
+## Overview
+
+Across my time in research there has been one common front loaded learning struggle I’ve seen across nearly all research disciplines. This is not knowing where to start when it comes to coding in R. 
+
+What is R? What is RStudio? Packages? What are the best practices for research?
+
+In this post I will help to detail all the various documentation, videos, books and other resources that have helped me over the years of learning R. My experience with R has developed my skills to the point of this website, my blog series as well as documentation of R through GitHub for my MPhil and PhD research. 
+
+By no means is this an exhaustive list of information and there are many other wonderful resources out there that may be of benefit to you. The list of resources I outline have been key to my learning on R, so take all information with a grain of salt.
+
+I also want to stress that this post does **NOT** include methodological or statistical specific recommendations. I take the assumption that your ability to appropriately discern and apply the correct methods for your research questions have been addressed. This post outlines tips and resources to fast-track learning the statistical programming language R. 
+
+For those readers who are well versed in R, if you have any of your own resources, please share them with me here [(contact me)](https://alexdgibson.com/contact/), or in the comments of some available posts (linkedin, bluesky)!
+
+
+### So, What is R and RStudio?
+
+R is the compiling programming language that converts your written code into machine readable code, i.e. turning interpretable text that we can read into 1’s and 0’s for your computer, so it can be executed. 
+
+RStudio on the other hand is a integrated development environment (IDE) that allows you to write your code in the R programming language. There are many other IDE software but for simplicity, convenience and consistency, R users typically only use RStudio.
+
+The good thing about R is that it is a free and open-source software developed by The R Project for Statistical Computing. The download and installation of R is easily executed from the Comprehensive R Archive Network [(CRAN)](https://cran.r-project.org/). Separate to CRAN, RStudio is also open-source and can be downloaded from POSIT [(here)](https://posit.co/download/rstudio-desktop/).
+
+The current version of R at the time of this post is version R-4.5.2. These numbers give you identity to which update of the R software you're using in a 0.0.0 format. The first indicating the major version of software, second indicating the minor version and third indicating the path/bug fix. So the current version has has 2 bug fixes, of the 5th minor version of the 4th major version of R. This information should be included in your research as bugs in different versions of R have the potential to influence and change the outputs of your analyses (e.g. one function may not work or have name changed in future updates). Correctly reporting such information helps other researchers replicate your studies to ensure valid results, they can check if it works in your reported version!
+
+
+### Functions & Base R
+
+If you hear anyone refer to ‘base R’ functions these are pre-built functions in R. A function is a pre-defined set of code that will alter your data in a specific way. Information on all the {Base} functions can be found [here](https://cran.r-project.org/doc/manuals/r-patched/packages/base/refman/base.html#base-package) with documentation on the use cases and troubleshooting.
+
+For example we can load in a pre-built dataset called mtcars
+
+```{r include = TRUE}
+# We can use data() (a Base R function) to load in mtcars dataset
+data(mtcars)
+
+# We can then look at the structure of the dataset using str()
+str(mtcars)
+```
+We can now see that the mtcars dataset has 32 observations of 11 variables. These 11 variables are all numeric variables (num).
+
+There are many different data types in R, but without complex or specific use cases, it is unlikely you will come across many. Two of the most common types you will deal with are numeric / integers and characters / strings.
+
+Numeric and integer data are very similar with the only difference that integer data do not contain any decimals where as numeric data can have decimals. Character or strings are text data. You can have say "42" as a chr and this will be treated differently compared to if 42 were a numeric.
+
+For example
+
+```{r include = TRUE, error = TRUE}
+# create 42 as a numeric variable
+numeric <- 42
+
+# create 42 as a string variable
+string <- "42"
+
+# check the type of data
+str(numeric)
+str(string)
+
+# we can add the integers together which will output 84
+numeric + numeric
+
+# but we cannot add the string together, and this outputs an error
+string + string
+```
+
+### Packages
+
+Packages are where R comes to life!
+
+CRAN hosts a complete set of packages available for download in R [(CRAN Packages)](https://cran.r-project.org/web/packages/available_packages_by_name.html). Here I am only going to cover one of these packages called [{tidyverse}](https://tidyverse.org/) which is actually a package of nine other packages. How meta!
+
+```{r include = TRUE, eval=FALSE}
+# To install a package in R you use the install.packages() function
+# You need to include the package name within quotations
+install.packages("tidyverse")
+
+# Once you have downloaded the package to your local machine you
+# will need to load the package into the current R session
+# You load your downloaded packed into R sessions using the library() function
+library(tidyverse)
+
+```
+The nine packages in the tidyverse are:
+
+* **dplyr** - "dplyr is a grammar of data manipulation, providing a consistent set of verbs that help you solve the most common data manipulation challenges" [(info)](https://dplyr.tidyverse.org/)
+* **tibble** - "a modern reimagining of the data.frame, keeping what time has proven to be effective, and throwing out what is not." [(info)](https://tibble.tidyverse.org/)
+* **ggplot2** - "ggplot2 is a system for declaratively creating graphics, based on The Grammar of Graphics. You provide the data, tell ggplot2 how to map variables to aesthetics, what graphical primitives to use, and it takes care of the details." [(info)](https://ggplot2.tidyverse.org/)
+* **readr** - "The goal of readr is to provide a fast and friendly way to read rectangular data from delimited files, such as comma-separated values (CSV) and tab-separated values (TSV). " [(info)](https://readr.tidyverse.org/)
+* **tidyr** - "Tidy data describes a standard way of storing data that is used wherever possible throughout the tidyverse. If you ensure that your data is tidy, you’ll spend less time fighting with the tools and more time working on your analysis." [(info)](https://tidyr.tidyverse.org/)
+* **stringr** - "The stringr package provides a cohesive set of functions designed to make working with strings as easy as possible." [(info)](https://stringr.tidyverse.org/)
+* **forcats** - "R uses factors to handle categorical variables, variables that have a fixed and known set of possible values. " [(info)](https://forcats.tidyverse.org/)
+* **lubridate** - "Lubridate makes it easier to do the things R does with date-times and possible to do the things R does not." [(info)](https://lubridate.tidyverse.org/)
+* **purrr** - "purrr enhances R’s functional programming (FP) toolkit by providing a complete and consistent set of tools for working with functions and vectors." [(info)](https://purrr.tidyverse.org/)
+
+The tidyverse is the life blood of some good R programming and would worthwhile going through each of the nine packages and looking at what each package can do and their functions.
+
+
+### Learning R
+ 
+Now there is some background set with what R is, RStudio, base R, functions and packages, how does one go from here to learn specific use cases relevant to your problems?
+
+There are three formats that have been amazing for my learning. The first of these have been YouTube videos following along others coding. I have ordered these channels from most beginner to more advanced but each will have important information and recommend you look through each to find what works for you. I also highly recommend watching a Riffomonas Project video in full, [(try this one)](https://www.youtube.com/watch?v=UPE7Z6Gfhno).
+
+* [Learn R Programming 101](https://www.youtube.com/@RProgramming101/videos): Super clear and highly digestible videos on individual functions, packages and beginner friendly information guiding you through understanding how each step works.
+* [Statistics Globe](https://www.youtube.com/@StatisticsGlobe): These videos from Statistics Globe are very concise videos on an individual topic and explain exactly the problem or function in high level of detail.
+* [Riffomonas Project](https://www.youtube.com/@Riffomonas): Easily my favorite of all! #codeclub! Pat Schloss is Professor in the Department of Microbilogy & Immunology at the University of Michigan. His videos are longer (30 min to 2 hour) but are incredible walk through videos that contain errors, problem solving and showcase the thought process behind coding. His videos have a primary focus on data visualizations. 
+* [Simplistics (QuantPsych)](https://www.youtube.com/@simplistics_stats): Dustin Fife focuses on the reproducibility of research and dissects an individual analysis and critiques them through R.
+
+Other great resources include cheatsheets!
+
+You should 100% go to the [Posit Cheatsheets](https://posit.co/resources/cheatsheets/) and at the top right of each package is a downloadable PDF cheatsheet that have always been a live safer for me! If there is one piece of information that will help you when needing to find a function that will work, check the cheatsheets!
+
+* [ggplot2 cheatsheet](https://rstudio.github.io/cheatsheets/html/data-visualization.html)
+* [dplyr cheatsheet](https://rstudio.github.io/cheatsheets/html/data-transformation.html)
+* [stringr cheatsheet](https://rstudio.github.io/cheatsheets/html/strings.html)
+
+Save them! Study them!
+
+Along with these packages, they need clear documentation when uploaded to CRAN and thus, have fantastic more detailed information in reference manuals. On the [CRAN packages page](https://cran.r-project.org/web/packages/available_packages_by_name.html), you can find all the packages and by clicking on one of these takes you to all relevant information. As an example for [ggplot2](https://cran.r-project.org/web/packages/ggplot2/index.html), you'll be able to find the "Reference Manual" which also have more detail than you'll need.
+
+Another resource which I personally have not used all too much - maybe becuase I've only recently found out about it - but is a fantastic resource none the less, an open source book! [R for Data Science](https://r4ds.had.co.nz/) is a wonderful and well crafted book authored by Hadley Wickham & Garret Grolemund. A quote from the [welcome page](https://r4ds.had.co.nz/) "You’ll learn how to get your data into R, get it into the most useful structure, transform it, visualise it and model it. In this book, you will find a practicum of skills for data science." 
+
+The last piece of helpful information for when you will get stuck with some function is within the console terminal in RStudio if you place a '?' in front of the function it will pull up its specific documentation.
+
+### Where to next
+This hopefully outlines some helpful resources that you can use to start learning R or develop your skills. I will follow up this blog with a second part on reproducibility in R for research, including specific environment setup, structuring projects and Git version control.
+
+In the mean time... happy coding :)
+
