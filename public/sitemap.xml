@@ -2,40 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:4321/</loc>
+    <loc>https://alexdgibson.com/</loc>
+    <lastmod>2025-12-03T00:00:00+10:00</lastmod>
+  </url><url>
+    <loc>https://alexdgibson.com/blog/</loc>
+    <lastmod>2025-12-03T00:00:00+10:00</lastmod>
+  </url><url>
+    <loc>https://alexdgibson.com/blog/r_1/</loc>
+    <lastmod>2025-12-03T00:00:00+10:00</lastmod>
+  </url><url>
+    <loc>https://alexdgibson.com/blog/q1/</loc>
+    <lastmod>2025-11-15T00:00:00+10:00</lastmod>
+  </url><url>
+    <loc>https://alexdgibson.com/blog/good_science/</loc>
+    <lastmod>2025-05-01T00:00:00+10:00</lastmod>
+  </url><url>
+    <loc>https://alexdgibson.com/blog/books/</loc>
     <lastmod>2025-02-26T00:00:00+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/blog/</loc>
-    <lastmod>2025-02-26T00:00:00+10:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/blog/books/</loc>
-    <lastmod>2025-02-26T00:00:00+10:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/blog/social/</loc>
+    <loc>https://alexdgibson.com/blog/social/</loc>
     <lastmod>2025-01-31T00:00:00+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/blog/meta/</loc>
+    <loc>https://alexdgibson.com/blog/meta/</loc>
     <lastmod>2024-11-27T00:00:00+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/blog/caffeine/</loc>
+    <loc>https://alexdgibson.com/blog/caffeine/</loc>
     <lastmod>2024-10-31T00:00:00+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/contact/</loc>
+    <loc>https://alexdgibson.com/contact/</loc>
     <lastmod>2019-02-25T13:38:41-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/form/</loc>
+    <loc>https://alexdgibson.com/form/</loc>
     <lastmod>2019-02-25T13:38:41-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/about/</loc>
+    <loc>https://alexdgibson.com/about/</loc>
   </url><url>
-    <loc>http://localhost:4321/categories/</loc>
+    <loc>https://alexdgibson.com/categories/</loc>
   </url><url>
-    <loc>http://localhost:4321/contributors/</loc>
+    <loc>https://alexdgibson.com/contributors/</loc>
   </url><url>
-    <loc>http://localhost:4321/license/</loc>
+    <loc>https://alexdgibson.com/license/</loc>
   </url><url>
-    <loc>http://localhost:4321/series/</loc>
+    <loc>https://alexdgibson.com/series/</loc>
   </url><url>
-    <loc>http://localhost:4321/tags/</loc>
+    <loc>https://alexdgibson.com/tags/</loc>
   </url>
 </urlset>

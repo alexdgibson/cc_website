@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+  
+                           
+     
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.133.1">
+<title>Learning R for Good Research Practices: Part 1 | Alexander Gibson</title>
+
+
+
+
+
+
+
+
+  
+    
+  
+<meta name="description" content="In this multi-part blog series I outline some steps to help start learning R. Part 1 is a background on R, packages and resources and tips on how to get started learning.">
+
+
+<meta property="og:site_name" content="Alexander Gibson">
+<meta property="og:title" content="Learning R for Good Research Practices: Part 1 | Alexander Gibson">
+<meta property="og:description" content="In this multi-part blog series I outline some steps to help start learning R. Part 1 is a background on R, packages and resources and tips on how to get started learning." />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="https://alexdgibson.com/blog/r_1/" />
+<meta property="og:locale" content="en">
+
+
+
+
+    
+        <meta property="og:image" content="https://alexdgibson.com/blog/r_1/feature.jpg" >
+        <meta property="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://alexdgibson.com/blog/r_1/feature.jpg" >
+    
+    
+  
+  <meta itemprop="name" content="Learning R for Good Research Practices: Part 1">
+  <meta itemprop="description" content="OverviewAcross my time in research there has been one common front loaded learning struggle I’ve seen across nearly all research disciplines. This is not knowing where to start when it comes to coding in R.
+What is R? What is RStudio? Packages? What are the best practices for research?
+In this post I will help to detail all the various documentation, videos, books and other resources that have helped me over the years of learning R.">
+  <meta itemprop="datePublished" content="2025-12-03T00:00:00+10:00">
+  <meta itemprop="dateModified" content="2025-12-03T00:00:00+10:00">
+  <meta itemprop="wordCount" content="1925">
+  <meta itemprop="image" content="https://alexdgibson.com/blog/r_1/feature.jpg">
+  
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECVT1R89WK"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-ECVT1R89WK');
+        }
+      </script>
+    
+  
+
+
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="/img/curve.png" type="image/x-icon">
+  <link rel="icon" href="/img/curve.png" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="/style.main.min.57a824f565ddbf30e87d84ac24a63fa243f2cdb23f5741024cdd8ced1b486bfb.css" integrity="sha256-V6gk9WXdvzDofYSsJKY/okPyzbI/V0ECTN2M7RtIa/s=" media="screen">
+  
+  
+  <script src="/panelset.min.ed1ac24b6e16f4e2481e3d1d098ae66f5bc77438aef619e6e266d8ac5b00dc72.js" type="text/javascript"></script>
+  
+  
+  <script src="/main.min.1fedbfcdf6bae6497ba2a243430fb287917b32872b02481c904a00cc05508501.js" type="text/javascript"></script>
+</head>
+<body>
+      <div class="grid-container single">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://alexdgibson.com/" title="Home">
+      <img src="/img/curve.png" class="dib db-l h2 w-auto" alt="Alexander Gibson">
+    </a>
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/blog/" title="Blog">Blog</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/about/" title="About Blogophonic">About</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/contact" title="contact">Contact</a>
+      
+      
+    </div>
+  </nav>
+</header>
+
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 ph4-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">Learning R for Good Research Practices: Part 1</h1>
+        
+        <p class="f6 measure lh-copy mv1">By Alexander Gibson</p>
+        <p class="f7 db mv0 ttu">December 3, 2025</p>
+
+      
+
+      </header>
+      <section class="post-body pt5 pb4">
+        
+
+
+
+<h2 id="overview">Overview
+  <a href="#overview"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>Across my time in research there has been one common front loaded learning struggle I’ve seen across nearly all research disciplines. This is not knowing where to start when it comes to coding in R.</p>
+<p>What is R? What is RStudio? Packages? What are the best practices for research?</p>
+<p>In this post I will help to detail all the various documentation, videos, books and other resources that have helped me over the years of learning R. My experience with R has developed my skills to the point of this website, my blog series as well as documentation of R through GitHub for my MPhil and PhD research.</p>
+<p>By no means is this an exhaustive list of information and there are many other wonderful resources out there that may be of benefit to you. The list of resources I outline have been key to my learning on R, so take all information with a grain of salt.</p>
+<p>I also want to stress that this post does <strong>NOT</strong> include methodological or statistical specific recommendations. I take the assumption that your ability to appropriately discern and apply the correct methods for your research questions have been addressed. This post outlines tips and resources to fast-track learning the statistical programming language R.</p>
+<p>For those readers who are well versed in R, if you have any of your own resources, please share them with me here 
+<a href="https://alexdgibson.com/contact/" target="_blank" rel="noopener">(contact me)</a>, or in the comments of some available posts (linkedin, bluesky)!</p>
+
+
+
+
+<h3 id="so-what-is-r-and-rstudio">So, What is R and RStudio?
+  <a href="#so-what-is-r-and-rstudio"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>R is the compiling programming language that converts your written code into machine readable code, i.e. turning interpretable text that we can read into 1’s and 0’s for your computer, so it can be executed.</p>
+<p>RStudio on the other hand is a integrated development environment (IDE) that allows you to write your code in the R programming language. There are many other IDE software but for simplicity, convenience and consistency, R users typically only use RStudio.</p>
+<p>The good thing about R is that it is a free and open-source software developed by The R Project for Statistical Computing. The download and installation of R is easily executed from the Comprehensive R Archive Network 
+<a href="https://cran.r-project.org/" target="_blank" rel="noopener">(CRAN)</a>. Separate to CRAN, RStudio is also open-source and can be downloaded from POSIT 
+<a href="https://posit.co/download/rstudio-desktop/" target="_blank" rel="noopener">(here)</a>.</p>
+<p>The current version of R at the time of this post is version R-4.5.2. These numbers give you identity to which update of the R software you&rsquo;re using in a 0.0.0 format. The first indicating the major version of software, second indicating the minor version and third indicating the path/bug fix. So the current version has has 2 bug fixes, of the 5th minor version of the 4th major version of R. This information should be included in your research as bugs in different versions of R have the potential to influence and change the outputs of your analyses (e.g. one function may not work or have name changed in future updates). Correctly reporting such information helps other researchers replicate your studies to ensure valid results, they can check if it works in your reported version!</p>
+
+
+
+
+<h3 id="functions--base-r">Functions &amp; Base R
+  <a href="#functions--base-r"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>If you hear anyone refer to ‘base R’ functions these are pre-built functions in R. A function is a pre-defined set of code that will alter your data in a specific way. Information on all the {Base} functions can be found 
+<a href="https://cran.r-project.org/doc/manuals/r-patched/packages/base/refman/base.html#base-package" target="_blank" rel="noopener">here</a> with documentation on the use cases and troubleshooting.</p>
+<p>For example we can load in a pre-built dataset called mtcars</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># We can use data() (a Base R function) to load in mtcars dataset</span>
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">data</span>(mtcars)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># We can then look at the structure of the dataset using str()</span>
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">str</span>(mtcars)
+</span></span></code></pre></div><pre tabindex="0"><code>## &#39;data.frame&#39;:	32 obs. of  11 variables:
+##  $ mpg : num  21 21 22.8 21.4 18.7 18.1 14.3 24.4 22.8 19.2 ...
+##  $ cyl : num  6 6 4 6 8 6 8 4 4 6 ...
+##  $ disp: num  160 160 108 258 360 ...
+##  $ hp  : num  110 110 93 110 175 105 245 62 95 123 ...
+##  $ drat: num  3.9 3.9 3.85 3.08 3.15 2.76 3.21 3.69 3.92 3.92 ...
+##  $ wt  : num  2.62 2.88 2.32 3.21 3.44 ...
+##  $ qsec: num  16.5 17 18.6 19.4 17 ...
+##  $ vs  : num  0 0 1 1 0 1 0 1 1 1 ...
+##  $ am  : num  1 1 1 0 0 0 0 0 0 0 ...
+##  $ gear: num  4 4 4 3 3 3 3 4 4 4 ...
+##  $ carb: num  4 4 1 1 2 1 4 2 2 4 ...
+</code></pre><p>We can now see that the mtcars dataset has 32 observations of 11 variables. These 11 variables are all numeric variables (num).</p>
+<p>There are many different data types in R, but without complex or specific use cases, it is unlikely you will come across many. Two of the most common types you will deal with are numeric / integers and characters / strings.</p>
+<p>Numeric and integer data are very similar with the only difference that integer data do not contain any decimals where as numeric data can have decimals. Character or strings are text data. You can have say &ldquo;42&rdquo; as a chr and this will be treated differently compared to if 42 were a numeric.</p>
+<p>For example</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># create 42 as a numeric variable</span>
+</span></span><span style="display:flex;"><span>numeric <span style="color:#000;font-weight:bold">&lt;-</span> <span style="color:#099">42</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># create 42 as a string variable</span>
+</span></span><span style="display:flex;"><span>string <span style="color:#000;font-weight:bold">&lt;-</span> <span style="color:#d14">&#34;42&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># check the type of data</span>
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">str</span>(numeric)
+</span></span></code></pre></div><pre tabindex="0"><code>##  num 42
+</code></pre><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#900;font-weight:bold">str</span>(string)
+</span></span></code></pre></div><pre tabindex="0"><code>##  chr &#34;42&#34;
+</code></pre><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># we can add the integers together which will output 84</span>
+</span></span><span style="display:flex;"><span>numeric <span style="color:#000;font-weight:bold">+</span> numeric
+</span></span></code></pre></div><pre tabindex="0"><code>## [1] 84
+</code></pre><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># but we cannot add the string together, and this outputs an error</span>
+</span></span><span style="display:flex;"><span>string <span style="color:#000;font-weight:bold">+</span> string
+</span></span></code></pre></div><pre tabindex="0"><code>## Error in string + string: non-numeric argument to binary operator
+</code></pre>
+
+
+
+<h3 id="packages">Packages
+  <a href="#packages"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>Packages are where R comes to life!</p>
+<p>CRAN hosts a complete set of packages available for download in R 
+<a href="https://cran.r-project.org/web/packages/available_packages_by_name.html" target="_blank" rel="noopener">(CRAN Packages)</a>. Here I am only going to cover one of these packages called 
+<a href="https://tidyverse.org/" target="_blank" rel="noopener">{tidyverse}</a> which is actually a package of nine other packages. How meta!</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#998;font-style:italic"># To install a package in R you use the install.packages() function</span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># You need to include the package name within quotations</span>
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">install.packages</span>(<span style="color:#d14">&#34;tidyverse&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># Once you have downloaded the package to your local machine you</span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># will need to load the package into the current R session</span>
+</span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"># You load your downloaded packed into R sessions using the library() function</span>
+</span></span><span style="display:flex;"><span><span style="color:#900;font-weight:bold">library</span>(tidyverse)
+</span></span></code></pre></div><p>The nine packages in the tidyverse are:</p>
+<ul>
+<li><strong>dplyr</strong> - &ldquo;dplyr is a grammar of data manipulation, providing a consistent set of verbs that help you solve the most common data manipulation challenges&rdquo; 
+<a href="https://dplyr.tidyverse.org/" target="_blank" rel="noopener">(info)</a></li>
+<li><strong>tibble</strong> - &ldquo;a modern reimagining of the data.frame, keeping what time has proven to be effective, and throwing out what is not.&rdquo; 
+<a href="https://tibble.tidyverse.org/" target="_blank" rel="noopener">(info)</a></li>
+<li><strong>ggplot2</strong> - &ldquo;ggplot2 is a system for declaratively creating graphics, based on The Grammar of Graphics. You provide the data, tell ggplot2 how to map variables to aesthetics, what graphical primitives to use, and it takes care of the details.&rdquo; 
+<a href="https://ggplot2.tidyverse.org/" target="_blank" rel="noopener">(info)</a></li>
+<li><strong>readr</strong> - &ldquo;The goal of readr is to provide a fast and friendly way to read rectangular data from delimited files, such as comma-separated values (CSV) and tab-separated values (TSV). &quot; 
+<a href="https://readr.tidyverse.org/" target="_blank" rel="noopener">(info)</a></li>
+<li><strong>tidyr</strong> - &ldquo;Tidy data describes a standard way of storing data that is used wherever possible throughout the tidyverse. If you ensure that your data is tidy, you’ll spend less time fighting with the tools and more time working on your analysis.&rdquo; 
+<a href="https://tidyr.tidyverse.org/" target="_blank" rel="noopener">(info)</a></li>
+<li><strong>stringr</strong> - &ldquo;The stringr package provides a cohesive set of functions designed to make working with strings as easy as possible.&rdquo; 
+<a href="https://stringr.tidyverse.org/" target="_blank" rel="noopener">(info)</a></li>
+<li><strong>forcats</strong> - &ldquo;R uses factors to handle categorical variables, variables that have a fixed and known set of possible values. &quot; 
+<a href="https://forcats.tidyverse.org/" target="_blank" rel="noopener">(info)</a></li>
+<li><strong>lubridate</strong> - &ldquo;Lubridate makes it easier to do the things R does with date-times and possible to do the things R does not.&rdquo; 
+<a href="https://lubridate.tidyverse.org/" target="_blank" rel="noopener">(info)</a></li>
+<li><strong>purrr</strong> - &ldquo;purrr enhances R’s functional programming (FP) toolkit by providing a complete and consistent set of tools for working with functions and vectors.&rdquo; 
+<a href="https://purrr.tidyverse.org/" target="_blank" rel="noopener">(info)</a></li>
+</ul>
+<p>The tidyverse is the life blood of some good R programming and would worthwhile going through each of the nine packages and looking at what each package can do and their functions.</p>
+
+
+
+
+<h3 id="learning-r">Learning R
+  <a href="#learning-r"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>Now there is some background set with what R is, RStudio, base R, functions and packages, how does one go from here to learn specific use cases relevant to your problems?</p>
+<p>There are three formats that have been amazing for my learning. The first of these have been YouTube videos following along others coding. I have ordered these channels from most beginner to more advanced but each will have important information and recommend you look through each to find what works for you. I also highly recommend watching a Riffomonas Project video in full, 
+<a href="https://www.youtube.com/watch?v=UPE7Z6Gfhno" target="_blank" rel="noopener">(try this one)</a>.</p>
+<ul>
+<li>
+<a href="https://www.youtube.com/@RProgramming101/videos" target="_blank" rel="noopener">Learn R Programming 101</a>: Super clear and highly digestible videos on individual functions, packages and beginner friendly information guiding you through understanding how each step works.</li>
+<li>
+<a href="https://www.youtube.com/@StatisticsGlobe" target="_blank" rel="noopener">Statistics Globe</a>: These videos from Statistics Globe are very concise videos on an individual topic and explain exactly the problem or function in high level of detail.</li>
+<li>
+<a href="https://www.youtube.com/@Riffomonas" target="_blank" rel="noopener">Riffomonas Project</a>: Easily my favorite of all! #codeclub! Pat Schloss is Professor in the Department of Microbilogy &amp; Immunology at the University of Michigan. His videos are longer (30 min to 2 hour) but are incredible walk through videos that contain errors, problem solving and showcase the thought process behind coding. His videos have a primary focus on data visualizations.</li>
+<li>
+<a href="https://www.youtube.com/@simplistics_stats" target="_blank" rel="noopener">Simplistics (QuantPsych)</a>: Dustin Fife focuses on the reproducibility of research and dissects an individual analysis and critiques them through R.</li>
+</ul>
+<p>Other great resources include cheatsheets!</p>
+<p>You should 100% go to the 
+<a href="https://posit.co/resources/cheatsheets/" target="_blank" rel="noopener">Posit Cheatsheets</a> and at the top right of each package is a downloadable PDF cheatsheet that have always been a live safer for me! If there is one piece of information that will help you when needing to find a function that will work, check the cheatsheets!</p>
+<ul>
+<li>
+<a href="https://rstudio.github.io/cheatsheets/html/data-visualization.html" target="_blank" rel="noopener">ggplot2 cheatsheet</a></li>
+<li>
+<a href="https://rstudio.github.io/cheatsheets/html/data-transformation.html" target="_blank" rel="noopener">dplyr cheatsheet</a></li>
+<li>
+<a href="https://rstudio.github.io/cheatsheets/html/strings.html" target="_blank" rel="noopener">stringr cheatsheet</a></li>
+</ul>
+<p>Save them! Study them!</p>
+<p>Along with these packages, they need clear documentation when uploaded to CRAN and thus, have fantastic more detailed information in reference manuals. On the 
+<a href="https://cran.r-project.org/web/packages/available_packages_by_name.html" target="_blank" rel="noopener">CRAN packages page</a>, you can find all the packages and by clicking on one of these takes you to all relevant information. As an example for 
+<a href="https://cran.r-project.org/web/packages/ggplot2/index.html" target="_blank" rel="noopener">ggplot2</a>, you&rsquo;ll be able to find the &ldquo;Reference Manual&rdquo; which also have more detail than you&rsquo;ll need.</p>
+<p>Another resource which I personally have not used all too much - maybe becuase I&rsquo;ve only recently found out about it - but is a fantastic resource none the less, an open source book! 
+<a href="https://r4ds.had.co.nz/" target="_blank" rel="noopener">R for Data Science</a> is a wonderful and well crafted book authored by Hadley Wickham &amp; Garret Grolemund. A quote from the 
+<a href="https://r4ds.had.co.nz/" target="_blank" rel="noopener">welcome page</a> &ldquo;You’ll learn how to get your data into R, get it into the most useful structure, transform it, visualise it and model it. In this book, you will find a practicum of skills for data science.&rdquo;</p>
+<p>The last piece of helpful information for when you will get stuck with some function is within the console terminal in RStudio if you place a &lsquo;?&rsquo; in front of the function it will pull up its specific documentation.</p>
+
+
+
+
+<h3 id="where-to-next">Where to next
+  <a href="#where-to-next"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>This hopefully outlines some helpful resources that you can use to start learning R or develop your skills. I will follow up this blog with a second part on reproducibility in R for research, including specific environment setup, structuring projects and Git version control.</p>
+<p>In the mean time&hellip; happy coding :)</p>
+
+        
+        <details closed class="f6 fw7 input-reset">
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Posted on:</dt>
+    <dd class="fw5 ml0">December 3, 2025</dd>
+  </dl>
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Length:</dt>
+    <dd class="fw5 ml0">10 minute read, 1925 words</dd>
+  </dl>
+  
+  
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">See Also:</dt>
+    
+  </dl>
+</details>
+
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+  
+  
+  
+    <a class="next dtc pl2 tr v-top fw6"
+    href="https://alexdgibson.com/blog/q1/">Publishing in a Q1 Journal is not Q1 Research &rarr;</a>
+  
+</div>
+
+      </footer>
+    </article>
+    
+      <div class="post-comments pa0 pa4-l mt4">
+  
+    
+      <script src="https://utteranc.es/client.js"
+              repo="alexdgibson/distributions-website"
+              issue-term="pathname"
+              theme="boxy-light"
+              label="comments :crystal_ball:"
+              crossorigin="anonymous"
+              async
+              type="text/javascript">
+      </script>
+    
+  
+</div>
+
+    
+  </section>
+</main>
+<footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <nav class="db dt-l w-100">
+    <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
+      &copy; 2026 Alexander Gibson
+      <span class="middot-divider"></span>
+      Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.
+      <br />
+      
+Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.
+    </p>
+    
+    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0">
+      <div class="social-icon-links" aria-hidden="true">
+  
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/alexdgibson" title="github" target="_blank" rel="me noopener">
+      <i class="fab fa-github fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://orcid.org/my-orcid?orcid=0000-0002-2201-9592" title="orcid" target="_blank" rel="me noopener">
+      <i class="fab fa-orcid fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.linkedin.com/in/alexander-g-758b06159/" title="linkedin" target="_blank" rel="me noopener">
+      <i class="fab fa-linkedin fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://bsky.app/profile/alexdgibson.bsky.social" title="bluesky" target="_blank" rel="me noopener">
+      <i class="fab fa-bluesky fa-lg fa-fw"></i>
+    </a>
+  
+</div>
+
+    </div>
+    
+    <div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0">
+      
+      <a class="dib pv1 ph2 link" href="/license/" title="License">License</a>
+      
+      <a class="dib pv1 ph2 link" href="/contact/" title="Contact form">Contact</a>
+      
+    </div>
+  </nav>
+  
+    <script>
+
+    var i, text, code, codes = document.getElementsByTagName('code');
+    for (let i = 0; i < codes.length;) {
+      code = codes[i];
+      if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+        text = code.textContent;
+        if (/^\$[^$]/.test(text) && /[^$]\$$/.test(text)) {
+          text = text.replace(/^\$/, '\\(').replace(/\$$/, '\\)');
+          code.textContent = text;
+        }
+        if (/^\\\((.|\s)+\\\)$/.test(text) ||
+            /^\\\[(.|\s)+\\\]$/.test(text) ||
+            /^\$(.|\s)+\$$/.test(text) ||
+            /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+          code.outerHTML = code.innerHTML;  
+          continue;
+        }
+      }
+      i++;
+    }
+</script>
+
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+
+
+    
+  
+  
+</footer>
+
+      </div>
+    </body>
+</html>

@@ -2,38 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Curiosity Chronicles on Alexander Gibson</title>
-    <link>http://localhost:4321/blog/</link>
+    <link>https://alexdgibson.com/blog/</link>
     <description>Recent content in Curiosity Chronicles on Alexander Gibson</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +1000</lastBuildDate>
-    <atom:link href="http://localhost:4321/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Dec 2025 00:00:00 +1000</lastBuildDate>
+    <atom:link href="https://alexdgibson.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning R for Good Research Practices: Part 1</title>
+      <link>https://alexdgibson.com/blog/r_1/</link>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 +1000</pubDate>
+      <guid>https://alexdgibson.com/blog/r_1/</guid>
+      <description>Overview&#xD;Across my time in research there has been one common front loaded learning struggle I’ve seen across nearly all research disciplines. This is not knowing where to start when it comes to coding in R.&#xA;What is R? What is RStudio? Packages? What are the best practices for research?&#xA;In this post I will help to detail all the various documentation, videos, books and other resources that have helped me over the years of learning R.</description>
+    </item>
+    <item>
+      <title>Publishing in a Q1 Journal is not Q1 Research</title>
+      <link>https://alexdgibson.com/blog/q1/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +1000</pubDate>
+      <guid>https://alexdgibson.com/blog/q1/</guid>
+      <description>Having only been in academic research for a few years as a student it has been strange to find such applause for publishing in “high quality” Q1 journals. Metrics are easy and quantifiable ways to act as proxy measures for quality or impact, but going beyond the first layer it does not hold up. Individual research outcomes should be priority when assessing quality.&#xA;Quartile rankings place journals into different equally distributed categories:</description>
+    </item>
+    <item>
+      <title>Should My PhD Exist?</title>
+      <link>https://alexdgibson.com/blog/good_science/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +1000</pubDate>
+      <guid>https://alexdgibson.com/blog/good_science/</guid>
+      <description>My PhD is important for the wrong reasons.&#xA;Titled “On examining poor statistical practices in published clinical prediction models” for the last 273 days I have been searching for problems and issues in prediction research.&#xA;What I rarely see are, well developed, rigorous prediction modelling studies that are pre-registered with appropriate methods, following expert guidelines and published with open access code/data for reproducibility and replicability. Simple, good research practices.&#xA;That is not to say there aren&amp;rsquo;t plenty of fantastic, impactful studies that change practice and policy.</description>
+    </item>
     <item>
       <title>Eight Books That Have Changed Me</title>
-      <link>http://localhost:4321/blog/books/</link>
+      <link>https://alexdgibson.com/blog/books/</link>
       <pubDate>Wed, 26 Feb 2025 00:00:00 +1000</pubDate>
-      <guid>http://localhost:4321/blog/books/</guid>
+      <guid>https://alexdgibson.com/blog/books/</guid>
       <description>The Greek philosopher Zeno was given the advice; “to live the best life, you should have conversations with the dead”. Books facilitate these conversations. Many of my best ideas and personal philosophies have come directly from such conversations. The following is a non-exhaustive list of a few books that have shaped me in recent years, that you may find of interest. 1.&#x9;War Doctor: Surgery On The Front Line – David Nott&#xD;While my interest in medicine came from a documentary I saw in 2018, this is the book that I keep coming back to.</description>
     </item>
     <item>
       <title>A Better Life Without Social Media</title>
-      <link>http://localhost:4321/blog/social/</link>
+      <link>https://alexdgibson.com/blog/social/</link>
       <pubDate>Fri, 31 Jan 2025 00:00:00 +1000</pubDate>
-      <guid>http://localhost:4321/blog/social/</guid>
+      <guid>https://alexdgibson.com/blog/social/</guid>
       <description>For most of my adult life, friends and I have talked about the addictive and negative aspects of social media. A constant highlight reel with individualised targeted ads, an algorithm designed to maximise engagement, not to mention infinite scrolling. Previously, having tried removing social media sporadically with little luck, I’ve now permanently deleted Instagram, Snapchat, Reddit, TikTok, X and deactivated my Facebook account.&#xA;For a week back in December, I aimed to spend as little time on my phone as possible and managed less than one hour a day.</description>
     </item>
     <item>
       <title>Optimism in Meta-Research</title>
-      <link>http://localhost:4321/blog/meta/</link>
+      <link>https://alexdgibson.com/blog/meta/</link>
       <pubDate>Wed, 27 Nov 2024 00:00:00 +1000</pubDate>
-      <guid>http://localhost:4321/blog/meta/</guid>
+      <guid>https://alexdgibson.com/blog/meta/</guid>
       <description>I got to experience my first insight of ‘meta-research’ at the 2023 AIMOS conference. Before this, I had almost no knowledge about meta-research. It sparked an interest in me for integrity and good research practices. Often meta-research can appear pessimistic or cynical of broader research, showcasing the flaws and faults, which made it refreshing to see a dedicated session for ‘some good news’ at AIMOS 2024. Four talks presented by David Mellor, Tammy Hoffman, Ivan Oransky and Anita Bandrowski gave light to the progress and positive effects meta-research and open science is having on the wider research.</description>
     </item>
     <item>
       <title>I Took 9565mg of Caffeine</title>
-      <link>http://localhost:4321/blog/caffeine/</link>
+      <link>https://alexdgibson.com/blog/caffeine/</link>
       <pubDate>Thu, 31 Oct 2024 00:00:00 +1000</pubDate>
-      <guid>http://localhost:4321/blog/caffeine/</guid>
+      <guid>https://alexdgibson.com/blog/caffeine/</guid>
       <description>At the end of my MPhil, I had completed a great deal of work. But I was left wondering some stats… How many hours did I put into this? How many words did I write? How many words did I read? Or how much caffeine did I consume?&#xA;Given I was continuing with a PhD I thought it will be easy enough to track my coffee consumption. And that’s exactly what I’ve been doing for the last three months.</description>
     </item>
   </channel>
