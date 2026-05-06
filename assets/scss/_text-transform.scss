@@ -26,28 +26,28 @@
 
 */
 
-.ttc { text-transform: capitalize; }
+.ttc { text-transform: none; }
 .ttl { text-transform: lowercase; }
-.ttu { text-transform: uppercase; }
+.ttu { text-transform: none; }
 .ttn { text-transform: none; }
 
 @media #{$breakpoint-not-small} {
-  .ttc-ns { text-transform: capitalize; }
+  .ttc-ns { text-transform: none; }
   .ttl-ns { text-transform: lowercase; }
-  .ttu-ns { text-transform: uppercase; }
+  .ttu-ns { text-transform: none; }
   .ttn-ns { text-transform: none; }
 }
 
 @media #{$breakpoint-medium} {
-  .ttc-m { text-transform: capitalize; }
+  .ttc-m { text-transform: none; }
   .ttl-m { text-transform: lowercase; }
-  .ttu-m { text-transform: uppercase; }
+  .ttu-m { text-transform: none; }
   .ttn-m { text-transform: none; }
 }
 
 @media #{$breakpoint-large} {
-  .ttc-l { text-transform: capitalize; }
+  .ttc-l { text-transform: none; }
   .ttl-l { text-transform: lowercase; }
-  .ttu-l { text-transform: uppercase; }
+  .ttu-l { text-transform: none; }
   .ttn-l { text-transform: none; }
 }

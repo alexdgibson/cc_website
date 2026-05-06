@@ -8,7 +8,7 @@ images:
 - cartoon.png
 show_action_link: false
 show_social_links: true
-subtitle: PhD Student
+subtitle: BBiomedSc, MPhil, PhD Candidate
 text_align_left: true
 title: Alexander Gibson
 type: home

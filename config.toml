@@ -31,7 +31,7 @@ timezone = 'Australia/Queensland'
 [params]
   orgName = "Alexander Gibson"
   orgLocal = ""
-  description = "PhD Student."
+  description = "PhD Candidate."
   favicon = "/img/curve.png" # icon at the top of chrome
   logo = "/img/curve.png" # icon on the top of page
   mainSections = []
