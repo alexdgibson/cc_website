@@ -114,7 +114,7 @@ timezone = 'Australia/Queensland'
   [[params.social]]
       icon      = "linkedin" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://www.linkedin.com/in/alexander-g-758b06159/"
+      url       = "https://www.linkedin.com/in/alex-d-gibson"
   [[params.social]]
       icon      = "bluesky" # icon name without the 'fa-'
       icon_pack = "fab"
