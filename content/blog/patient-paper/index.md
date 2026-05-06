@@ -3,7 +3,7 @@ author: "Alexander Gibson"
 categories:
 date: "2026-05-06"
 draft: false
-excerpt: What you do as researchers and clinician’s matters, and it matters to the patients. When planning your next study, it’s worth the time to reflect on the motivation and justification. 
+excerpt: What you do as researchers and clinician’s matters, and it matters to the patients. When planning your next study, it’s worth the time to reflect on the motivation and justification and output. 
 layout: single
 subtitle:
 title: For The Patient or The Paper?
