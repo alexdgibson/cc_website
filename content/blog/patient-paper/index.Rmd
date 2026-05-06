@@ -15,7 +15,7 @@ Since the first year of my undergraduate in Biomedical Science, it was instilled
 
 Though, the aim of applied medical research is to better the health and wellbeing of individuals through advancements in technology, practice, evidence and policy. When this aim shifts to publishing papers, it no longer serves its purpose. What you do as researchers and clinician’s matters, and it matters to patients. When planning your next study, it’s worth the time to reflect deeply on the motivation, justification and output.
 
-More than 60 years ago, the Declaration of Helsinki set the ethical principles for medical research involving human participants. Early last year I found a typo in the latest updated Declaration which was promptly corrected by the World Medical Association. My best assumption is the error was up for six months before I found it. But I was left wondering, if there for six months, were researchers and clinicians were even reading these global principles that need be upheld.
+More than 60 years ago, the Declaration of Helsinki set the ethical principles for medical research involving human participants. Early last year I found a typo in the latest updated declaration which was promptly corrected by the World Medical Association. My best assumption is the error was up for six months before I found it. But I was left wondering, if there for six months, were researchers and clinicians even reading these global principles that need be upheld.
 
 One of these principles being:
 
