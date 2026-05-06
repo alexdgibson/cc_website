@@ -6,10 +6,10 @@ draft: false
 excerpt: What you do as researchers and clinician’s matters, and it matters to the patients. When planning your next study, it’s worth the time to reflect on the motivation and justification. 
 layout: single
 subtitle:
-title: For the patient or the paper?
+title: For The Patient or The Paper?
 auto_ids: false
 ---
-The other day I was interviewed by a journalist regarding my recent work in identifying [unreliable data used in medical research](https://doi.org/10.64898/2026.02.24.26347028). During our discussion I made the comment “is the work for the patients or the paper?” and it hasn’t left my mind.
+The other day I was having a conversation regarding my recent work in identifying [unreliable data used in medical research](https://doi.org/10.64898/2026.02.24.26347028). During our discussion I made the comment “is the work for the patients or the paper?” and it hasn’t left my mind.
 
 Since the first year of my undergraduate in Biomedical Science, it was instilled in us there is a patient – a parent, a sibling or friend – at the end of our work. Regardless if we have direct contact or feedback with them, our actions likely in some way will influence their care or treatment. Yet, as the publish or perish culture persists, I am still concerned more weight is placed on paper metrics than real change. Publish or perish being the incentives to gain funding or employment by increasing quantity over quality of work to reach performance metrics.
 
