@@ -3,7 +3,7 @@ author: "Alexander Gibson"
 categories:
 date: "2026-05-06"
 draft: false
-excerpt: What you do as researchers and clinician’s matters, and it matters to the patients. When planning your next study, it’s worth the time to reflect on the motivation and justification and output. 
+excerpt: What you do as researchers and clinicians matters, and it matters to the patients. When planning your next study, it’s worth the time to reflect on the motivation and justification and output. 
 layout: single
 subtitle:
 title: For The Patient or The Paper?
@@ -13,9 +13,9 @@ The other day I was having a conversation regarding my recent work in identifyin
 
 Since the first year of my undergraduate in Biomedical Science, it was instilled in us there is a patient – a parent, a sibling or friend – at the end of our work. Regardless if we have direct contact or feedback with them, our actions likely in some way will influence their care or treatment. Yet, as the publish or perish culture persists, I am still concerned more weight is placed on paper metrics than real change. Publish or perish being the incentives to gain funding or employment by increasing quantity over quality of work to reach performance metrics.
 
-Though, the aim of applied medical research is to better the health and wellbeing of individuals through advancements in technology, practice, evidence and policy. When this aim shifts to publishing papers, it no longer serves its purpose. What you do as researchers and clinician’s matters, and it matters to patients. When planning your next study, it’s worth the time to reflect deeply on the motivation, justification and output.
+Though, the aim of applied medical research is to better the health and wellbeing of individuals through advancements in technology, practice, evidence and policy. When this aim shifts to publishing papers, it no longer serves its purpose. What you do as researchers and clinicians matters, and it matters to patients. When planning your next study, it’s worth the time to reflect deeply on the motivation, justification and output.
 
-More than 60 years ago, the Declaration of Helsinki set the ethical principles for medical research involving human participants. Early last year I found a typo in the latest updated declaration which was promptly corrected by the World Medical Association. My best assumption is the error was up for six months before I found it. But I was left wondering, if there for six months, were researchers and clinicians even reading these global principles that need be upheld.
+More than 60 years ago, the Declaration of Helsinki set the ethical principles for medical research involving human participants. Early last year I found a typo in the latest updated declaration which was promptly corrected by the World Medical Association. My best assumption is the error was up for six months before I found it. But I was left wondering, if the typo was there for six months, were researchers and clinicians even reading these global principles.
 
 One of these principles being:
 
