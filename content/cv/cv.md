@@ -1,15 +1,65 @@
 ---
-title: CV 
+title: CV & Research
 description: Download a copy of my CV.
-show_title_as_headline: TRUE
-url: cv
+show_title_as_headline: FALSE
+url: cv-research
 type: page
 layout: standard
 ---
 
-Download my current CV in PDF format:
+# CV
 
+Click on the link below to download my current CV as a PDF. Updated 24 May, 2026.
 
+- <a href="/cv/cv_academic.pdf" download>Academic CV</a>
 
-- [Academic CV](/cv/cv_academic.pdf) (updated 24 May, 2026)
+<br>
 
+# Publications
+
+The following are a selection of pre-prints, publications, NEWS articles or other resources which I've produced through my research or my research has informed. Updated 24 May, 2026.
+
+<div class="pub-item">
+  <div class="pub-text">
+    <strong>Evidence of Unreliable Data and Poor Data Provenance in Clinical Prediction Model Research and Clinical Practice.</strong><br>
+    <em>medRxiv</em>, 24 February 2026. DOI: <a href="https://doi.org/10.64898/2026.02.24.26347028">10.64898/2026.02.24.26347028</a>
+  </div>
+  <div data-badge-type="donut" data-doi="10.64898/2026.02.24.26347028" class="altmetric-embed"></div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-text">
+    <strong>Dozens of AI disease-prediction models were trained on dubious data.</strong><br>
+    <em>Nature News</em>, 15 April 2026. DOI: <a href="https://doi.org/10.1038/d41586-026-00697-4">10.1038/d41586-026-00697-4</a>
+  </div>
+  <div data-badge-type="donut" data-doi="10.1038/d41586-026-00697-4" class="altmetric-embed"></div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-text">
+    <strong>‘Comically bad’ datasets used to train clinical models for stroke and diabetes.</strong><br>
+    <em>Retraction Watch</em>, 18 May 2026. <a href="https://retractionwatch.com/2026/05/18/kaggle-dataset-clinical-models-stroke-diabetes/">Read the article</a>
+  </div>
+</div>
+
+<script type="text/javascript" src="https://embed.altmetric.com/assets/embed.js"></script>
+
+<style>
+.pub-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+.pub-item:last-of-type {
+  border-bottom: none;
+}
+.pub-text {
+  flex: 1;
+}
+.altmetric-embed {
+  flex-shrink: 0;
+}
+</style>

@@ -143,9 +143,9 @@ timezone = 'Australia/Queensland'
     url = "/contact"
     weight = 4
   [[menu.header]]
-    name = "CV"
-    title = "CV"
-    url = "/cv/"
+    name = "CV & Research"
+    title = "CV & Research"
+    url = "/cv-research/"
     weight = 1
     
   # Configure footer  
