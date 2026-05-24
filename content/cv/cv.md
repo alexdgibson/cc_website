@@ -21,24 +21,27 @@ The following are a selection of pre-prints, publications, NEWS articles or othe
 
 <div class="pub-item">
   <div class="pub-text">
-    <strong>Evidence of Unreliable Data and Poor Data Provenance in Clinical Prediction Model Research and Clinical Practice.</strong><br>
-    <em>medRxiv</em>, 24 February 2026. DOI: <a href="https://doi.org/10.64898/2026.02.24.26347028">10.64898/2026.02.24.26347028</a>
+    <strong>Evidence of Unreliable Data and Poor Data Provenance in Clinical Prediction Model Research and Clinical Practice</strong><br>
+    <strong>Alexander D. Gibson</strong>, Nicole M. White, Gary S. Collins, Adrian G. Barnett <em>medRxiv</em>, 24 February 2026.<br>
+    DOI: <a href="https://doi.org/10.64898/2026.02.24.26347028">10.64898/2026.02.24.26347028</a>
   </div>
   <div data-badge-type="donut" data-doi="10.64898/2026.02.24.26347028" class="altmetric-embed"></div>
 </div>
 
 <div class="pub-item">
   <div class="pub-text">
-    <strong>Dozens of AI disease-prediction models were trained on dubious data.</strong><br>
-    <em>Nature News</em>, 15 April 2026. DOI: <a href="https://doi.org/10.1038/d41586-026-00697-4">10.1038/d41586-026-00697-4</a>
+    <strong>Dozens of AI disease-prediction models were trained on dubious data</strong><br>
+    Mohana Basu. <em>Nature News</em>, 15 April 2026. <br>
+    DOI: <a href="https://doi.org/10.1038/d41586-026-00697-4">10.1038/d41586-026-00697-4</a>
   </div>
   <div data-badge-type="donut" data-doi="10.1038/d41586-026-00697-4" class="altmetric-embed"></div>
 </div>
 
 <div class="pub-item">
   <div class="pub-text">
-    <strong>‘Comically bad’ datasets used to train clinical models for stroke and diabetes.</strong><br>
-    <em>Retraction Watch</em>, 18 May 2026. <a href="https://retractionwatch.com/2026/05/18/kaggle-dataset-clinical-models-stroke-diabetes/">Read the article</a>
+    <strong>‘Comically bad’ datasets used to train clinical models for stroke and diabetes</strong><br>
+    Lori Youmshajekian. <em>Retraction Watch</em>, 18 May 2026. <br>
+    <a href="https://retractionwatch.com/2026/05/18/kaggle-dataset-clinical-models-stroke-diabetes/">Read the article</a>
   </div>
 </div>
 
