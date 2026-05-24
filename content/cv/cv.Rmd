@@ -15,7 +15,7 @@ Click on the link below to download my current CV as a PDF. Updated 24 May, 2026
 
 <br>
 
-# Publications
+# Research
 
 The following are a selection of pre-prints, publications, NEWS articles or other resources which I've produced through my research or my research has informed. Updated 24 May, 2026.
 
