@@ -47,6 +47,14 @@ The following are a selection of pre-prints, publications, NEWS articles or othe
   </div>
 </div>
 
+<div class="pub-item">
+  <div class="pub-text">
+    <strong>Data Provenance in Medical Machine Learning | Alexander Gibson</strong><br>
+    Randy Ellis. <em>Metascience Matters Podcast</em>, 28 May 2026. <br>
+    <a href="https://www.youtube.com/watch?v=blNIZKYKo_Q&t=21s">Listen to the podcast</a>
+  </div>
+</div>
+
 <script type="text/javascript" src="https://embed.altmetric.com/assets/embed.js"></script>
 
 <style>
