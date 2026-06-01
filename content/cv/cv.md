@@ -24,7 +24,7 @@ The following are a selection of pre-prints, publications, NEWS articles or othe
 <div class="pub-item">
   <div class="pub-text">
     <strong>Evidence of Unreliable Data and Poor Data Provenance in Clinical Prediction Model Research and Clinical Practice</strong><br>
-    <strong>Alexander D. Gibson</strong>, Nicole M. White, Gary S. Collins, Adrian G. Barnett <em>medRxiv</em>, 24 February 2026.<br>
+    <strong>Alexander D. Gibson</strong>, Nicole M. White, Gary S. Collins, Adrian G. Barnett. <em>medRxiv</em>, 24 February 2026.<br>
     DOI: <a href="https://doi.org/10.64898/2026.02.24.26347028">10.64898/2026.02.24.26347028</a>
   </div>
   <div data-badge-type="donut" data-doi="10.64898/2026.02.24.26347028" class="altmetric-embed"></div>
