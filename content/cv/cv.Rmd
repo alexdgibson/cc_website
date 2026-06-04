@@ -9,11 +9,9 @@ layout: standard
 
 # CV
 
-Click on either of the links below to download my current academic or industry CV as a PDF. Updated 24 May, 2026.
+Click on the link below to download my current academic CV as a PDF. Updated 4 June, 2026.
 
 - <a href="/cv/cv_academic.pdf" download>Academic CV</a>
-
-- <a href="/cv/cv_industry.pdf" download>Industry CV</a>
 
 <br>
 
