@@ -17,7 +17,7 @@ Click on the link below to download my current academic CV as a PDF. Updated 4 J
 
 # Research
 
-The following are a selection of pre-prints, publications, NEWS articles or other resources which I've produced through my research or my research has informed. Updated 24 May, 2026.
+The following are a selection of pre-prints, publications, news articles or other resources which I've produced, informed or been interviewed for. Updated 10 June, 2026.
 
 <div class="pub-item">
   <div class="pub-text">
@@ -31,7 +31,7 @@ The following are a selection of pre-prints, publications, NEWS articles or othe
 <div class="pub-item">
   <div class="pub-text">
     <strong>Dozens of AI disease-prediction models were trained on dubious data</strong><br>
-    Mohana Basu. <em>Nature News</em>, 15 April 2026. <br>
+    Mohana Basu. <em>Nature news</em>, 15 April 2026. <br>
     DOI: <a href="https://doi.org/10.1038/d41586-026-00697-4">10.1038/d41586-026-00697-4</a>
   </div>
   <div data-badge-type="donut" data-doi="10.1038/d41586-026-00697-4" class="altmetric-embed"></div>
@@ -51,6 +51,15 @@ The following are a selection of pre-prints, publications, NEWS articles or othe
     Randy Ellis. <em>Metascience Matters Podcast</em>, 28 May 2026. <br>
     <a href="https://www.youtube.com/watch?v=blNIZKYKo_Q&t=21s">Listen to the podcast</a>
   </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-text">
+    <strong>Scientists have a bad case of AI FOMO, Nature poll reveals</strong><br>
+    Mohana Basu. <em>Nature news</em>, 9 June 2026. <br>
+    DOI: <a href="https://doi.org/10.1038/d41586-026-01690-7">10.1038/d41586-026-01690-7</a>
+  </div>
+  <div data-badge-type="donut" data-doi="10.1038/d41586-026-01690-7" class="altmetric-embed"></div>
 </div>
 
 <script type="text/javascript" src="https://embed.altmetric.com/assets/embed.js"></script>
