@@ -57,7 +57,7 @@ The following are a selection of pre-prints, publications, news articles or othe
   <div class="pub-text">
     <strong>Scientists have a bad case of AI FOMO, Nature poll reveals</strong><br>
     Mohana Basu. <em>Nature news</em>, 9 June 2026. <br>
-    DOI: <a href="https://doi.org/10.1038/d41586-026-01690-7">10.1038/d41586-026-01690-7</a>
+    DOI: <a href="https://www.nature.com/articles/d41586-026-01690-7">10.1038/d41586-026-01690-7</a>
   </div>
   <div data-badge-type="donut" data-doi="10.1038/d41586-026-01690-7" class="altmetric-embed"></div>
 </div>
