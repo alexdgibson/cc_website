@@ -9,7 +9,7 @@ layout: standard
 
 # CV
 
-Click on the link below to download my current academic CV as a PDF. Updated 20 June, 2026.
+Click on the link below to download my current academic CV as a PDF. Updated 1 July, 2026.
 
 - <a href="/cv/cv_academic.pdf" download>Academic CV</a>
 
